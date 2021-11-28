@@ -48,11 +48,11 @@ async def ytdl(link):
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
 async def play(c: Client, m: Message):
-JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention},You Must Join @Miss_Akshi_updates"
+JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention}, You Must Join @szteambots Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
 
 FSUBB = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="Sz Team Bots <sz/>", url=f"https://t.me/Miss_Akshi_updates") 
+        InlineKeyboardButton(text="Sz Team Bots <sz/>", url=f"https://t.me/szteambots") 
         ]]
     )
     try:
@@ -278,11 +278,11 @@ FSUBB = InlineKeyboardMarkup(
 
 @Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
 async def stream(c: Client, m: Message):
-JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention},You Must Join @Miss_Akshi_updates"
+JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {Message.from_user.mention}, You Must Join @szteambots Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
 
 FSUBB = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="Sz Team Bots <sz/>", url=f"https://t.me/Miss_Akshi_updates") 
+        InlineKeyboardButton(text="Sz Team Bots <sz/>", url=f"https://t.me/szteambots") 
         ]]
     )
     try:
