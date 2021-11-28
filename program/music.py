@@ -52,7 +52,7 @@ async def ytdl(link):
 
 @Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
 async def play(c: Client, m: Message):
-JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention}, You Must Join @Miss_Akshi_updates Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
+JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention},You Must Join @Miss_Akshi_updates"
 
 FSUBB = InlineKeyboardMarkup(
         [[
@@ -282,7 +282,7 @@ FSUBB = InlineKeyboardMarkup(
 
 @Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
 async def stream(c: Client, m: Message):
-JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {Message.from_user.mention}, You Must Join @Miss_Akshi_updates Telegram Channel To Use This BOT. So, Please Join it & Try Again🤗. Thank You 🤝"
+JOIN_ASAP = f"⛔️** Access Denied **⛔️\n\n🙋‍♂️ Hey There {message.from_user.Mention},You Must Join @Miss_Akshi_updates"
 
 FSUBB = InlineKeyboardMarkup(
         [[
